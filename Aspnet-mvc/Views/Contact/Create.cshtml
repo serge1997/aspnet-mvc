@@ -1,0 +1,43 @@
+﻿@model ContactModel
+@{
+    ViewData["Title"] = "Criar novo contato";
+}
+
+<div class="continer-fluid">
+    <div class="row">
+        <div class="col-md-10 m-auto">
+            <div class="w-100 d-flex align-items-center gap-2">
+                <h1>Criar novo contato</h1>
+                <div>
+                    <a class="btn btn-primary" asp-controller="Contact" asp-action="Index">Lista contatos</a>
+                </div>
+            </div>
+            <div>
+                <form asp-controller="Contact" asp-action="Create" method="post">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" asp-for="Name" class="form-control" id="name" placeholder="Digite o nome">
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Name)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Digite o email">
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Email)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+                        <input type="text" asp-for="Phone" class="form-control" id="phone" placeholder="Digite o telefone">
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Phone)</span>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary btn-block">Salvar</button>
+                    </div>
+                </form>
+            </div>            
+        </div>
+    </div>
+</div>
+
+@{
+    
+}

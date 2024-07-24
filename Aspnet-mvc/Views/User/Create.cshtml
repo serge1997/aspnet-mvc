@@ -1,0 +1,58 @@
+﻿@model UserModel
+@using Aspnet_mvc.Enums;
+@{
+    ViewData["Title"] = "Criar novo usuario";
+}
+
+<div class="continer-fluid">
+    <div class="row">
+        <div class="col-md-10 m-auto">
+            <div class="w-100 d-flex align-items-center gap-2">
+                <h1>Criar novo Usuerio</h1>
+                <div>
+                    <a class="btn btn-primary" asp-controller="User" asp-action="Index">Lista usuarios</a>
+                </div>
+            </div>
+            <div>
+                <form asp-controller="User" asp-action="Create" method="post">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" asp-for="Name" class="form-control" id="name" placeholder="Digite o nome">
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Name)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Digite o email">
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Email)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Login</label>
+                        <input type="text" asp-for="Login" class="form-control" id="login" placeholder="Digite o Login">
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Login)</span>
+                    </div>
+                    <div class="mb-3 form-group">
+                        <label class="form-label">Perfil</label>
+                        <select class="form-control" asp-for="Profil">
+                            <option value="0">Selecione</option>
+                            <option value="@ProfilEnum.Admin">Admin</option>
+                            <option value="@ProfilEnum.Normal">Padrão</option>
+                        </select>
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Profil)</span>
+                    </div>
+                    <div class="mb-3 form-group">
+                        <label class="form-label">Senha</label>
+                        <input type="password" asp-for="Password" class="form-control" placeholder="Digite a senha"/>
+                        <span class="text-danger">@Html.ValidationMessageFor(msg => msg.Password)</span>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary btn-block">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+
+}

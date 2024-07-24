@@ -1,0 +1,40 @@
+﻿@model ContactModel
+@{
+    ViewData["Title"] = "Editar contato";
+}
+
+<div class="continer-fluid">
+    <div class="row">
+        <div class="col-md-10 m-auto">
+            <div class="w-100 d-flex align-items-center gap-2">
+                <h1>Editar contato</h1>
+                <div>
+                    <a class="btn btn-primary" asp-controller="Contact" asp-action="Index">Lista contatos</a>
+                </div>
+            </div>
+            <div>
+                <form method="post" asp-controller="Contact" asp-action="Edit">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" asp-for="Name" id="name" placeholder="Digite o nome">
+                        <span class="text-danger">@Html.ValidationMessageFor(error => error.Name)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" asp-for="Email" id="email" placeholder="Digite o email">
+                        <span class="text-danger">@Html.ValidationMessageFor(error => error.Email)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" asp-for="Phone" id="tel" placeholder="Digite o telefone">
+                        <span class="text-danger">@Html.ValidationMessageFor(error => error.Phone)</span>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary btn-block">Alterar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

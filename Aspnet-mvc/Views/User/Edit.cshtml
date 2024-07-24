@@ -1,0 +1,45 @@
+﻿@model UserModel
+@{
+    ViewData["Title"] = "Editar contato";
+}
+
+<div class="continer-fluid">
+    <div class="row">
+        <div class="col-md-10 m-auto">
+            <div class="w-100 d-flex align-items-center gap-2">
+                <h1>Editar usuario @Model.Name</h1>
+                <div>
+                    <a class="btn btn-primary" asp-controller="User" asp-action="Index">Lista usuarios</a>
+                </div>
+            </div>
+            <div>
+                <form method="post" asp-controller="User" asp-action="Edit">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" asp-for="Name" id="name" placeholder="Digite o nome">
+                        <span class="text-danger">@Html.ValidationMessageFor(error => error.Name)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" asp-for="Email" id="email" placeholder="Digite o email">
+                        <span class="text-danger">@Html.ValidationMessageFor(error => error.Email)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="login" class="form-label">Login</label>
+                        <input type="text" class="form-control" asp-for="Login" id="login" placeholder="Digite o login">
+                        <span class="text-danger">@Html.ValidationMessageFor(error => error.Login)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Senha</label>
+                        <input type="text" class="form-control" asp-for="Password" id="password">
+                        <span class="text-danger">@Html.ValidationMessageFor(error => error.Password)</span>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary btn-block">Alterar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

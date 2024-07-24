@@ -1,0 +1,86 @@
+﻿@model ICollection<ContactModel>
+@{
+    ViewData["Title"] = "Listagem de contatos";
+}
+
+<div class="container-fluid">
+    <div class="container">
+        @if (TempData["MessageSuccess"] is not null)
+        {
+            <div class="col-md-10 m-auto">
+                <span class="alert alert-msg alert-success d-flex align-items-center justify-content-center gap-5">
+                    <span class="w-50 text-end">@TempData["MessageSuccess"]</span>
+                    <span class="w-50 text-end">
+                        <span class="w-100 d-flex align-items-center justify-content-end">
+                            <button class="btn btn-danger btn-sm d-flex justify-content-end border-0 close-alert">X</button>
+                        </span>
+                    </span>
+                </span>
+            </div>
+        }
+        
+        @if(TempData["MessageError"] is not null)
+        {
+            <div class="col-md-10 m-auto">
+                <span class="alert alert-msg alert-danger d-flex align-items-center justify-content-center gap-5">
+                    <span class="w-50 text-end">@TempData["MessageError"]</span>
+                    <span class="w-50 text-end">
+                        <span class="w-100 d-flex align-items-center justify-content-end">
+                            <button class="btn btn-danger btn-sm d-flex justify-content-end border-0 close-alert">X</button>
+                        </span>
+                    </span>
+                </span>
+            </div>
+        }
+        
+        <div class="row">
+            <div class="text-center">
+                <h1 class="display-4">Bem vindo na pagina de contatos</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-start mb-3">
+            <div class="col-md-10">
+                <a class="btn btn-primary w-25" role="button" asp-controller="User" asp-action="Create">Adicionar novo contato</a>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table tables-jq" id="contact-table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Login</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if(Model is not null)
+                    {
+                        foreach(ContactModel contact in Model)
+                        {
+                            <tr>
+                                <td>@contact.Id</td>
+                                <td>@contact.Name</td>
+                                <td>@contact.Email</td>
+                                <td>@contact.Email</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a role="button" class="btn btn-primary" asp-route-id="@contact.Id" asp-controller="Contact" asp-action="Edit">Editar</a>
+                                        <a role="button" class="btn btn-danger" asp-route-id="@contact.Id" asp-controller="Contact" asp-action="Delete">Deletear</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+
+    
+   
+</script>

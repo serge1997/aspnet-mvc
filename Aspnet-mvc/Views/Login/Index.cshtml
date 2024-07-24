@@ -1,0 +1,35 @@
+﻿@model LoginModel
+
+@{
+    Layout = "_GuestLayout";
+
+    ViewData["Title"] = "Login";
+}
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 m-auto">
+                @if (TempData["MessageError"] is not null)
+                {
+                    <p class="alert alert-danger">@TempData["MessageError"]</p>
+                }
+                <form asp-controller="Login" asp-action="Auth" method="post" class="w-100">
+                    <div class="mb-3">
+                        <label class="form-label">Login</label>
+                        <input type="text" asp-for="Login" class="form-control" placeholder="Digite o seu login" />
+                        <span class="text-danger">@Html.ValidationMessageFor(login => login.Login)</span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Senha</label>
+                        <input type="password" asp-for="Password" class="form-control" placeholder="Digite a sua senha" />
+                        <span class="text-danger">@Html.ValidationMessageFor(login => login.Password)</span>
+                    </div>
+                    <div class="mb-3 w-100">
+                        <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

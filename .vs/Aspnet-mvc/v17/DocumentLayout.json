@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\viewcomponents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\viewcomponents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\views\\shared\\_guestlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\views\\shared\\_guestlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\helpers\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\helpers\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\ViewComponents\\Menu.cs",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\ViewComponents\\Menu.cs",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\ViewComponents\\Menu.cs",
+              "RelativeToolTip": "Aspnet-mvc\\ViewComponents\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:16:58.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeToolTip": "Aspnet-mvc\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T01:12:06.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Aspnet-mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T01:09:06.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Program.cs",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Program.cs",
+              "RelativeToolTip": "Aspnet-mvc\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T00:52:08.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Helpers\\SessionService.cs",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Helpers\\SessionService.cs",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Helpers\\SessionService.cs",
+              "RelativeToolTip": "Aspnet-mvc\\Helpers\\SessionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T00:23:08.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Aspnet-mvc\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAiwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T15:15:46.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_GuestLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Shared\\_GuestLayout.cshtml",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Views\\Shared\\_GuestLayout.cshtml",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Shared\\_GuestLayout.cshtml",
+              "RelativeToolTip": "Aspnet-mvc\\Views\\Shared\\_GuestLayout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T15:13:27.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Aspnet-mvc\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T14:59:38.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Aspnet-mvc\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwEMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T14:30:58.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Aspnet-mvc\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:26:09.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

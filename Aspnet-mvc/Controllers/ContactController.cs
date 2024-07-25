@@ -13,9 +13,9 @@ namespace Aspnet_mvc.Controllers
             _contactRepository = contactRepository;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var contacts = _contactRepository.GetAll();
+            ICollection<ContactModel> contacts = await _contactRepository.GetAllAsync();
             return View(contacts);
         }
 
@@ -26,13 +26,13 @@ namespace Aspnet_mvc.Controllers
 
         public IActionResult Edit(int Id)
         {
-            ContactModel contact = _contactRepository.Get(Id);
+            var contact = _contactRepository.GetAsync(Id);
             return View(contact);
         }
 
         public IActionResult Delete(int Id)
         {
-            ContactModel contact = _contactRepository.Get(Id);
+            var contact = _contactRepository.GetAsync(Id);
             return View(contact);
         }
 
@@ -69,7 +69,7 @@ namespace Aspnet_mvc.Controllers
             if (ModelState.IsValid)
             {
                 TempData["MessageSuccess"] = $"Contato alterado com successo";
-                _contactRepository.Update(model);
+                _contactRepository.UpdateAsync(model);
                 return RedirectToAction(nameof(Index));
             }
             return View(model);

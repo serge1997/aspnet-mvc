@@ -1,5 +1,6 @@
 ﻿using Aspnet_mvc.Data;
 using Aspnet_mvc.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Aspnet_mvc.Repository;
 
@@ -18,19 +19,19 @@ public class ContactRepository : IContactRepository
         return contact;
     }
 
-    public ICollection<ContactModel> GetAll()
+    public async Task<ICollection<ContactModel>> GetAllAsync()
     {
-        return _ContactContext.Contacts.ToList();
+        return await _ContactContext.Contacts.ToListAsync();
     }
 
-    public ContactModel Get(int id)
+    public async Task<ContactModel?> GetAsync(int id)
     {
-        return _ContactContext.Contacts.FirstOrDefault(contact => contact.Id == id)!;
+        return await _ContactContext.Contacts.FirstOrDefaultAsync(contact => contact.Id == id)!;
     }
 
-    public ContactModel Update(ContactModel contactBody)
+    public async Task<ContactModel> UpdateAsync(ContactModel contactBody)
     {
-        ContactModel contact = Get(contactBody.Id);
+        ContactModel? contact = await GetAsync(contactBody.Id)!;
 
         if (contact is null)
         {

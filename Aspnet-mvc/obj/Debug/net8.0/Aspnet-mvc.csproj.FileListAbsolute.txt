@@ -137,3 +137,4 @@ C:\Users\serge\source\repos\Aspnet-mvc\Aspnet-mvc\obj\Debug\net8.0\Aspnet-mvc.cs
 C:\Users\serge\source\repos\Aspnet-mvc\Aspnet-mvc\obj\Debug\net8.0\Aspnet-mvc.csproj.Up2Date
 C:\Users\serge\source\repos\Aspnet-mvc\Aspnet-mvc\obj\Debug\net8.0\scopedcss\Views\Shared\_GuestLayout.cshtml.rz.scp.css
 C:\Users\serge\source\repos\Aspnet-mvc\Aspnet-mvc\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\serge\source\repos\Aspnet-mvc\Aspnet-mvc\obj\Debug\net8.0\Aspnet-mvc.sourcelink.json

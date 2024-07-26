@@ -12,6 +12,7 @@ public class UserRepository : IUserRepository
     public UserModel Create(UserModel user)
     {
         user.Created_at = DateTime.Now;
+        user.HashPassword();
         _Context.Users.Add(user);
         _Context.SaveChanges();
         return user;
@@ -35,10 +36,12 @@ public class UserRepository : IUserRepository
         {
             throw new Exception("Houve um erro na atualização do contato!");
         }
+        userParam.HashPassword();
         user.Email = userParam.Email;
         user.Name = userParam.Name;
         user.Login = userParam.Login;
         user.Profil = userParam.Profil;
+        user.Password = userParam.Password;
         user.Updated_at = DateTime.Now;
 
         _Context.SaveChanges();

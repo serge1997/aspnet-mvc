@@ -8,6 +8,6 @@ public interface IContactRepository
     Task<ICollection<ContactModel>> GetAllAsync();
     Task<ContactModel> GetAsync(int id);
     Task<ContactModel> UpdateAsync(ContactModel contact);
-    ContactModel Delete(ContactModel contact);
+    Task<ContactModel> DeleteAsync(ContactModel contact);
     ContactModel GetBy(Func<ContactModel, bool> predicate);
 }

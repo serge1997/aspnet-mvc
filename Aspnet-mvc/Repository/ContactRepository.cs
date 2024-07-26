@@ -41,16 +41,16 @@ public class ContactRepository : IContactRepository
         contact.Name = contactBody.Name;
         contact.Email = contactBody.Email;
         contact.Phone = contact.Phone;
-        _ContactContext.SaveChanges();
+        await _ContactContext.SaveChangesAsync();
         return contact;
     }
 
-    public ContactModel Delete(ContactModel contact)
+    public async Task<ContactModel> DeleteAsync(ContactModel contact)
     {
         if (contact is not null)
         {
             _ContactContext.Contacts.Remove(contact);
-            _ContactContext.SaveChanges();
+            await _ContactContext.SaveChangesAsync();
             return contact;
         }
         throw new Exception("contact dosent exist for delete");

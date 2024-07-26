@@ -3,6 +3,7 @@
 using Aspnet_mvc.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Aspnet_mvc.Helpers;
 
 public class UserModel
 {
@@ -30,6 +31,11 @@ public class UserModel
 
     public bool passwordIsValid(string password)
     {
-        return string.Equals(Password, password);
+        return string.Equals(Password, password.Crypt());
+    }
+
+    public void HashPassword()
+    {
+        Password = Password.Crypt();
     }
 }

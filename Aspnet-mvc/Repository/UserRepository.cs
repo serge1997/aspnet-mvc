@@ -66,4 +66,9 @@ public class UserRepository : IUserRepository
         return _Context.Users.FirstOrDefault(us => string.Equals(us.Login.ToUpper(), login.ToUpper()))!;
         
     }
+
+    public UserModel GetBy(Func<UserModel, bool> predicate)
+    {
+        return _Context.Users.FirstOrDefault(predicate)!;
+    }
 }

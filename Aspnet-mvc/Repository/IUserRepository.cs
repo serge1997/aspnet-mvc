@@ -9,5 +9,6 @@ public interface IUserRepository
     UserModel Update(UserModel user);
     UserModel Delete(UserModel user);
     UserModel GetByLogin(string login);
+    UserModel GetBy(Func<UserModel, bool> predicate);
 
 }

@@ -55,5 +55,35 @@ namespace Aspnet_mvc.Controllers
             _sessionService.RemoveUserSession();
             return RedirectToAction(nameof(Index));
         }
+
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult SendResetPasswordURL(ResetPasswordModel reset)
+        {
+           try
+            {
+                if (ModelState.IsValid)
+                {
+                    UserModel user = _userRepository.GetBy(user => 
+                        string.Equals(user.Email, reset.Email, StringComparison.OrdinalIgnoreCase) && string.Equals(user.Login, reset.Login, StringComparison.OrdinalIgnoreCase));
+
+                    if (user is not null)
+                    {
+                        TempData["MessageSuccess"] = "User finded";
+                        return RedirectToAction(nameof(ResetPassword), reset);
+                    }
+                }
+                return View(nameof(ResetPassword));
+            }
+            catch (Exception ex)
+            {
+                TempData["MessageError"] = $"Não foi possivel redefinir a senha {ex.Message}";
+                return View(nameof(ResetPassword), reset);
+            }
+        }
     }
 }

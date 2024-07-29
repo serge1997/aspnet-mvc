@@ -12,6 +12,7 @@ builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ISessionService, SessionService>();
+builder.Services.AddScoped<IEmail, Email>();
 
 
 

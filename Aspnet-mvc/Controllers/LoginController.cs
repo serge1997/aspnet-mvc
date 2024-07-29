@@ -9,11 +9,13 @@ namespace Aspnet_mvc.Controllers
     {
         private readonly IUserRepository _userRepository;
         private readonly ISessionService _sessionService;
+        private readonly IEmail _email;
 
-        public LoginController(IUserRepository userRepository,ISessionService sessionService)
+        public LoginController(IUserRepository userRepository,ISessionService sessionService, IEmail email)
         {
             _userRepository = userRepository;
             _sessionService = sessionService;
+            _email = email;
         }
         public IActionResult Index()
         {
@@ -30,16 +32,23 @@ namespace Aspnet_mvc.Controllers
                 {
                     UserModel userLogin = _userRepository.GetByLogin(loginParam.Login);
 
-                    if (userLogin is not null && userLogin.passwordIsValid(loginParam.Password))
+                    if (userLogin is not null)
                     {
-                        _sessionService.CreateUserSession(userLogin);
-                        return RedirectToAction("Index", "Home");
+                        if (userLogin.passwordIsValid(loginParam.Password))
+                        {
+                            _sessionService.CreateUserSession(userLogin);
+                            return RedirectToAction("Index", "Home");
+                        }
+                        else
+                        {
+                            TempData["MessageError"] = "Senha invalidá";
+                        }
                     }
                     else
                     {
-                        TempData["MessageError"] = "Senha invalidá";
+
+                        TempData["MessageError"] = "Login ou senha invalido";
                     }
-                    TempData["MessageError"] = "Login ou senha invalido";
                 }
                 return View(nameof(Index), loginParam);
             }
@@ -70,13 +79,28 @@ namespace Aspnet_mvc.Controllers
                 {
                     UserModel user = _userRepository.GetBy(user => 
                         string.Equals(user.Email, reset.Email, StringComparison.OrdinalIgnoreCase) && string.Equals(user.Login, reset.Login, StringComparison.OrdinalIgnoreCase));
-
+                    
                     if (user is not null)
                     {
-                        TempData["MessageSuccess"] = "User finded";
-                        return RedirectToAction(nameof(ResetPassword), reset);
-                    }
+                        string password = user.GeneratePassword();
+                        string message = $"Sua nova senha é {password}";
+                        string isSend = _email.Send(user.Email, "Systema de contato -  nova senha", message);
+
+                        if (isSend.Equals("true"))
+                        {
+                            _userRepository.Update(user);
+                            TempData["MessageSuccess"] = "Enviamos para seu e-mail uma nova senha";
+                            return RedirectToAction(nameof(Index), reset);
+                        }
+                        else
+                        {
+                            TempData["MessageError"] = $"Não conseguimos enviar o email para {user.Email}, error: {isSend}";
+                            return RedirectToAction(nameof(ResetPassword));
+                        }
+                       
+                    }                
                 }
+                TempData["MessageError"] = "Não foi possivel redefinir a senha, verifique seus dados";
                 return View(nameof(ResetPassword));
             }
             catch (Exception ex)

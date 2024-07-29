@@ -38,4 +38,11 @@ public class UserModel
     {
         Password = Password.Crypt();
     }
+
+    public string GeneratePassword()
+    {
+        string newPassword = Guid.NewGuid().ToString().Substring(0, 8);
+        Password = newPassword;
+        return newPassword;
+    }
 }

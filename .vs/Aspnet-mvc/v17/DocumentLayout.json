@@ -3,39 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\helpers\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\helpers\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Mvc/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\views\\login\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\views\\login\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Mvc/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\viewcomponents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\viewcomponents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|c:\\users\\serge\\source\\repos\\aspnet-mvc\\aspnet-mvc\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605AE133-80D4-4E43-BB83-1271BF0065BC}|Aspnet-mvc\\Aspnet-mvc.csproj|solutionrelative:aspnet-mvc\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,11 +37,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "dbo.Users [Dados]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Mvc/True/SqlTable/dbo.Users.sql",
               "ToolTip": "dbo.Users [Dados]",
@@ -59,46 +51,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Aspnet-mvc\\Repository\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Repository\\IUserRepository.cs",
-              "RelativeToolTip": "Aspnet-mvc\\Repository\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "DocumentIndex": 0,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Helpers\\Email.cs",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Helpers\\Email.cs",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Helpers\\Email.cs",
+              "RelativeToolTip": "Aspnet-mvc\\Helpers\\Email.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T19:46:25.316Z",
+              "WhenOpened": "2024-07-29T12:10:18.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Aspnet-mvc\\Repository\\UserRepository.cs",
               "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Repository\\UserRepository.cs",
               "RelativeToolTip": "Aspnet-mvc\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAgwEUAAAALAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T19:42:50.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Aspnet-mvc\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Models\\LoginModel.cs",
-              "RelativeToolTip": "Aspnet-mvc\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T19:30:06.046Z",
+              "WhenOpened": "2024-07-29T12:03:30.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Aspnet-mvc\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Models\\UserModel.cs",
+              "RelativeToolTip": "Aspnet-mvc\\Models\\UserModel.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:58:05.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ResetPasswordModel.cs",
               "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Models\\ResetPasswordModel.cs",
               "RelativeDocumentMoniker": "Aspnet-mvc\\Models\\ResetPasswordModel.cs",
@@ -111,54 +103,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Aspnet-mvc\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Aspnet-mvc\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAuwEwAAABOAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFQAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T19:23:15.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Login\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Aspnet-mvc\\Views\\Login\\ResetPassword.cshtml",
               "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Login\\ResetPassword.cshtml",
               "RelativeToolTip": "Aspnet-mvc\\Views\\Login\\ResetPassword.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-28T19:10:54.73Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Aspnet-mvc\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Aspnet-mvc\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T19:08:17.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\ViewComponents\\Menu.cs",
-              "RelativeDocumentMoniker": "Aspnet-mvc\\ViewComponents\\Menu.cs",
-              "ToolTip": "C:\\Users\\serge\\source\\repos\\Aspnet-mvc\\Aspnet-mvc\\ViewComponents\\Menu.cs",
-              "RelativeToolTip": "Aspnet-mvc\\ViewComponents\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T01:16:58.703Z"
             }
           ]
         }
